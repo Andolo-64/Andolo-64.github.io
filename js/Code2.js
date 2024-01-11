@@ -1,4 +1,5 @@
-// JavaScript Document
+//©Andolo
+
 var x = document.getElementById("ta");
 x.addEventListener("click", mySecondFunction);
 
