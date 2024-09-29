@@ -8,20 +8,64 @@
 
 #main
 {
-  background-color: rgba(239, 198, 248, 0.959);
+  /*background-image: url("../img/portfoliobakrund1.png");*/
+}
+
+#prosjekt
+{
+  margin: 10%;
+  width: 80%;
+  border: 5px solid rgb(222, 202, 255);
+  border-top-color: rgb(227, 227, 255);
+  border-right-color: rgb(2, 18, 84);
+  border-bottom-color: rgb(12, 18, 84);
+  border-left-color:rgb(222, 202, 255) ;
+  text-align: center; 
+  
+}
+#uedocs
+{
+  margin-left: 17%;
+  width: 64%;
+  border: 5px solid rgb(222, 202, 255);
+  border-top-color: rgb(227, 227, 255);
+  border-right-color: rgb(2, 18, 84);
+  border-bottom-color: rgb(12, 18, 84);
+  border-left-color:rgb(222, 202, 255) ;
+  text-align: center; 
+}
+#ytv
+{
+  border: 5px solid rgb(222, 202, 255);
+  border-top-color: rgb(227, 227, 255);
+  border-right-color: rgb(2, 18, 84);
+  border-bottom-color: rgb(12, 18, 84);
+  border-left-color:rgb(222, 202, 255) ;
+  text-align: center; 
 }
 
 #News
 {
+  text-align: center;  
   
-  background-color: rgba(13, 28, 53, 0.179);
+  background-color: rgba(15, 9, 36, 0.601);
+  color: aliceblue;
+  border: 5px solid rgb(222, 202, 255);
+  border-top-color: rgb(227, 227, 255);
+  border-right-color: rgb(2, 18, 84);
+  border-bottom-color: rgb(12, 18, 84);
+  border-left-color:rgb(222, 202, 255) ;
 }
 
 #title
 {
-
+  color: aliceblue;
   text-align: center;
   font-size:4vw;
+  background-color: rgba(54, 22, 169, 0.601);
+  width: 50%;
+  margin-left: 25%;
+  
 }
 
 #Bla{
@@ -31,7 +75,9 @@
 
 .Bla {
   overflow: hidden;
-  background-color: #333;
+  padding: 1%;
+  background-image: url("../img/KontorMat1.png");
+               
 }
 
 .text_Storelse {
@@ -44,22 +90,40 @@
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
+  margin: 0px 10px;
+  background-size: cover;
   text-decoration: none;
   font-size: 40px;
+  background-color:rgb(92, 75, 124) ;
+  border: 5px solid rgb(222, 202, 255);
+  border-top-color: rgb(227, 227, 255);
+  border-right-color: rgb(21, 7, 33);
+  border-bottom-color: rgb(21, 7, 33);
+  border-left-color:rgb(222, 202, 255) ;
 }
 
 .Bla a:hover {
-  background-color:aqua;
+  background-color:rgb(150, 123, 199);
   color: black;
 }
 
 .Bla a.He {
-  background-color:fuchsia;
+  background-color:rgb(42, 41, 117);
   color: white;
+}
+.Bla a.He:hover {
+  background-color:rgb(150, 123, 199);
+  color: rgb(0, 0, 0);
 }
 
 #bon{
-	 background-color:aquamarine;
+  background-color:rgb(92, 75, 124) ;
+  border: 5px solid rgb(222, 202, 255);
+  border-top-color: rgb(227, 227, 255);
+  border-right-color: rgb(21, 7, 33);
+  border-bottom-color: rgb(21, 7, 33);
+  border-left-color:rgb(222, 202, 255) ;
+  color: aliceblue;
 	position: absolute;
   margin-top: 500px ;
   left: 0;
